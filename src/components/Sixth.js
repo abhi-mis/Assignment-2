@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import img1 from "../images/Ajayimage.jpg";
+import img1 from "../images/nishka.jpg";
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 

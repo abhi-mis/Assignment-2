@@ -1,9 +1,7 @@
 import "./App.css";
-import  "./index.css";
+import "./index.css";
 import First from "./components/First";
 import Second from "./components/Second";
-import img1  from "./images/7.jpg";
-import img2 from "./images/7.jpg";
 import Third from "./components/Third";
 import Fourth from "./components/Fourth";
 import Fifth from "./components/Fifth";
@@ -13,34 +11,41 @@ import Seventh from "./components/Seventh";
 import Eight from "./components/Eight";
 import Ninth from "./components/Ninth";
 
-
-
 function App() {
   return (
-    // <main class="flex justify-center gap-4 flex-col min-h-screen">
-    //   <h1 class="text-3xl text-center font-bold underline">React & Tailwind CSS Starter Pack</h1>
-    //   <p class="text-center text-xl">This is a starter pack for React & Tailwind CSS projects.</p>
-    //   <img src="https://bit.ly/3wsmzTy" alt="meme" class="mx-auto" />
-    // </main>
-    <div>
-        
+    <div className="container">
+      {/* Wrap each component in a div with a specific class name */}
+      <div className="section first">
         <First />
-        <Second/>
-        <Third></Third>
-        <Fourth></Fourth>
-        <Fifth></Fifth>
-        <Fifth2></Fifth2>
-        <Sixth></Sixth>
-        <Seventh></Seventh>
-        <Eight></Eight>
-        <Ninth></Ninth>
-        
-          {/* <img src ={img1} alt="nothing"/> */}
-      
-
-
-            
       </div>
+      <div className="section second">
+        <Second />
+      </div>
+      <div className="section third">
+        <Third />
+      </div>
+      <div className="section fourth">
+        <Fourth />
+      </div>
+      <div className="section fifth">
+        <Fifth />
+      </div>
+      <div className="section fifth2">
+        <Fifth2 />
+      </div>
+      <div className="section sixth">
+        <Sixth />
+      </div>
+      <div className="section seventh">
+        <Seventh />
+      </div>
+      <div className="section eight">
+        <Eight />
+      </div>
+      <div className="section ninth">
+        <Ninth />
+      </div>
+    </div>
   );
 }
 

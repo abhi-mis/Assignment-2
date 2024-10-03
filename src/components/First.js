@@ -1,7 +1,7 @@
 import React from 'react';
 import img1 from "../images/7.jpg";
 import img2 from "../images/asliphoto.jpg";
-import img7 from "../images/Ajayimage.jpg";
+import img7 from "../images/nishka.jpg";
 import { IoIosArrowDown } from "react-icons/io";
 import { Button } from '@chakra-ui/react';
 import { FaRegPlayCircle } from "react-icons/fa";
@@ -35,7 +35,7 @@ function First() {
           className="w-8 h-8"
         /> */}
         <img src={img1}  className="w-8 h-8 rounded-full ml-2"></img>
-        <h1 className="text-lg font-bold ml-0">Untitled UI</h1>
+        <h1 className="text-lg font-bold ml-0"></h1>
       {/* </div> */}
 
       {/* Middle section with navigation links */}
@@ -70,7 +70,7 @@ function First() {
           </div> */}
         {/* </div> */} 
 
-        <a href="/pricing" className="hover:text-gray-800">Pricing</a>
+        
       </div>
 
       {/* Right section with user profile */}
@@ -123,8 +123,8 @@ function First() {
         <div className="flex justify-center space-x-4">
           <button className=" button-23 border-white text-black border-solid-black py-2 px-6 rounded-lg">
             <div className='flex flex-row gap-2'>
-             <FaRegPlayCircle />
-             <p>  Demo</p>
+          
+             <p>Demo</p>
 
             </div>
               </button>

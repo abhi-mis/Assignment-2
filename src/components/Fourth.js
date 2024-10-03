@@ -1,6 +1,6 @@
 import React from 'react';
 import img2 from "../images/7.jpg";
-import img1 from "../images/Ajayimage.jpg";
+import img1 from "../images/nishka.jpg";
 import { ImGrin2 } from 'react-icons/im';
 
 const Fourth = () => {
