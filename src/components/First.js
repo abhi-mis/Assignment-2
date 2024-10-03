@@ -115,11 +115,9 @@ function First() {
       {/* Main Section */}
       <div className="text-center my-16 px-4">
         <h1 className="text-4xl font-bold mb-4">Beautiful analytics to grow smarter</h1>
-        <pre className="text-gray-600 mb-6">Powerful, self-serve product and growth analytics to help you convert, engage,
-            <br></br>
-           
-                    and retain more users. Trusted by over 4,000 startups.
-        </pre>
+        <p className="text-gray-600 mb-6" >  Powerful, self-serve product and growth analytics to help you convert, engage,
+             and retain more users. Trusted by over 4,000 startups.
+        </p>
         <div className="flex justify-center space-x-4">
           <button className=" button-23 border-white text-black border-solid-black py-2 px-6 rounded-lg">
             <div className='flex flex-row gap-2'>
