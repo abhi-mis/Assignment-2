@@ -6,7 +6,7 @@ function Footer() {
     <footer className="  flext  justify-center items-center  bg-gray-100 text-gray-800 py-4">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between">
-          <div className="md:w-1/4">
+          
             <h3 className="font-bold mb-4">Product</h3>
             <ul>
               <li><a href="#">Overview</a></li>
@@ -16,8 +16,7 @@ function Footer() {
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Releases</a></li>
             </ul>
-          </div>
-          <div className="md:w-1/4">
+   
             <h3 className="font-bold mb-4">Company</h3>
             <ul>
               <li><a href="#">About us</a></li>
@@ -27,7 +26,7 @@ function Footer() {
               <li><a href="#">Media Kit</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
-          </div>
+          
           <div className="md:w-1/4">
             <h3 className="font-bold mb-4">Resources</h3>
             <ul>
@@ -73,18 +72,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        {/* <div className="text-center mt-4">
-          <p>&copy; 2077 Untitled UI. All rights reserved.</p>
-        </div> */}
-
-
-
-
-
-
-
-
-
+    
 
 
     <footer className="bg-gray-100 text-gray-800 py-4">
@@ -92,9 +80,10 @@ function Footer() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <div className="w-8 h-8 mt-4 mr[-3]"> <BsFillCaretRightSquareFill /> </div>
-            <h3 className="font-bold">Untitled UI</h3>
+            <h3 className="font-bold">Untitled
+            </h3>
           </div>
-          <p>&copy; 2077 Untitled UI. All rights reserved.</p>
+          <p>&copy; 2077 Untitled UI.</p>
         </div>
       </div>
     </footer>
